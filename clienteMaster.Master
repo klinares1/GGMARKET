@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="clienteMaster.master.cs" Inherits="NOCHESVI_DEFINITIVO.clienteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="style2.css" type="text/css" media="screen">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+   <form id="form1" runat="server">
+        <div id="wrap">
+    <div id="header">
+      <div id="logo">
+        <h1>GGMARKET</h1>
+        <div>
+            <br />
+            <br />
+            De Gamers Para Gamers</div>
+       </div>
+      <ul id="nav">
+        <li class="first"><a href="inicioCliente.aspx">Inicio</a></li>
+        <li><a href="ComprasCliente.aspx">Compras</a></li>
+          <li><a href="SugeCliente.aspx">Sugerencias</a></li>
+           <li><a href="inicioSesion.aspx">Log out</a></li>
+      </ul>
+
+    </div>
+    <!-- /header -->
+    <div id="content">
+      <!-- /content -->
+    </div>
+            
+    <div class="clearfix">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+            
+    <div id="footer">
+
+      <div id="ftinner">
+          <p id="copyright">© 2022. All Rights Reserved. <br/>
+            Designed by  <a href="https://www.instagram.com/kev_l.r/?hl=es"> Kevin Linares</a></p>
+        
+    </div>
+    <!-- /footer -->
+  </div>
+                        </div>
+    </form>
+</body>
+</html>

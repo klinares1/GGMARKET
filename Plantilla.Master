@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.master.cs" Inherits="NOCHESVI_DEFINITIVO.Plantilla" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GGMARKETADMIN</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+   
+    <form id="form1" runat="server">
+        <div id="wrap">
+
+  
+    <div id="header">
+      <div id="logo">
+        <h1>GGMARKETADMIN</h1>
+        <div>
+            <br />
+            <br />
+            De gamers para gamers</div>
+       </div>
+      <ul id="nav">
+        <li class="first"><a href="inicioAdmin.aspx">Inicio</a></li>
+        <li><a href="ClientesAdmin.aspx">Clientes</a></li>
+         <li><a href="ProveedoresAdmin.aspx">Proveedores</a></li>
+          <li><a href="SugeAdmin.aspx">Sugerencias</a></li>
+          <li><a href="InventariosAdmin.aspx">Reportes</a></li>
+          <li><a href="ComprasAdmin.aspx">Comprar</a></li>
+          <li><a href="GraficosAdmin.aspx">Ver graficos</a></li>
+          <li><a href="inicioSesion.aspx">Log out</a></li>
+      </ul>
+
+    </div>
+    <!-- /header -->
+    <div id="content">
+      <!-- /content -->
+    </div>
+            
+    <div class="clearfix">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+
+        </asp:ContentPlaceHolder>
+    </div>
+            
+    <div id="footer">
+
+      <div id="ftinner">
+          <p id="copyright">© 2022. All Rights Reserved. <br/>
+            Designed by  <a href="https://www.instagram.com/kev_l.r/?hl=es"> Kevin Linares</a></p>
+        
+    </div>
+    <!-- /footer -->
+  </div>
+                        </div>
+    </form>
+</body>
+</html>
